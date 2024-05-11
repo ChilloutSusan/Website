@@ -1,3 +1,9 @@
+/*begin-commonstyles library*//*!
+ * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2021 Froala Labs
+ */
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -42555,7 +42561,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
+  background-image: linear-gradient(#333333, #db545a);
 }
 
 .u-header .u-sheet-1 {
@@ -42569,7 +42575,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -42586,7 +42591,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-icon-1 {
-  height: 32px;
+  height: 100%;
+  color: rgb(17, 17, 17) !important;
 }
 
 .u-header .u-icon-2 {
@@ -42595,8 +42601,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-icon-3 {
   height: 100%;
+  color: rgb(210, 34, 21) !important;
 }
-
+@media (max-width: 1199px) {
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
+  }
+}
 
 
 
